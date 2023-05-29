@@ -1,4 +1,3 @@
 # DriverUpdater
 
-
-![Screenshot 2023-05-25 211657](https://github.com/firatkaanbitmez/DriverUpdater/assets/74864221/f7e5d2ae-5de6-4053-b2a7-b7b6fbdea994)
+![Screenshot 2023-05-29 171927](https://github.com/firatkaanbitmez/DriverUpdater/assets/74864221/077c2fe6-2d8e-4c83-8de6-176df8ec978a)
