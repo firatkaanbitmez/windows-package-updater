@@ -1,3 +1,4 @@
-# DriverUpdater
+# Windows Package Updater
 
-![Screenshot 2023-05-29 171927](https://github.com/firatkaanbitmez/DriverUpdater/assets/74864221/077c2fe6-2d8e-4c83-8de6-176df8ec978a)
+
+![Screenshot 2023-07-05 191403](https://github.com/firatkaanbitmez/WindowsPackageUpdater/assets/74864221/37d3555c-dfb1-43c9-a259-2b363684a80a)
