@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="linkLabelProjectURL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 169</value>
+  </data>
+  <data name="linkLabelProjectURL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 23</value>
+  </data>
+  <data name="linkLabelProjectURL.Text" xml:space="preserve">
+    <value>Tıklayın ve Proje Sayfasına gidin</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Güncellemeyi yükle</value>
+  </data>
+  <data name="labelAvailableInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Sans Unicode, 12.75pt</value>
+  </data>
+  <data name="labelAvailableInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 97</value>
+  </data>
+  <data name="labelAvailableInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 21</value>
+  </data>
+  <data name="labelAvailableInfo.Text" xml:space="preserve">
+    <value>Kullanılabilir Güncelleme Yok</value>
+  </data>
+  <data name="labelCurrentVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Sans Unicode, 12.75pt</value>
+  </data>
+  <data name="labelCurrentVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 66</value>
+  </data>
+  <data name="labelCurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 21</value>
+  </data>
+  <data name="labelCurrentVersion.Text" xml:space="preserve">
+    <value>Kullanılan Sürüm v.</value>
+  </data>
+  <data name="panelUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>707, 389</value>
+  </data>
+  <data name="comboLanguages.Items" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="comboLanguages.Items1" xml:space="preserve">
+    <value>İngilizce</value>
+  </data>
+  <data name="comboLanguages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 138</value>
+  </data>
+  <data name="labelLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 144</value>
+  </data>
+  <data name="labelLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 20</value>
+  </data>
+  <data name="labelLanguage.Text" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="panelLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 391</value>
+  </data>
+  <data name="kryptonButton1.Text" xml:space="preserve">
+    <value>Koyu Tema</value>
+  </data>
+  <data name="kryptonButton2.Text" xml:space="preserve">
+    <value>Açık Tema</value>
+  </data>
+  <data name="lblRESETCOLOR.Text" xml:space="preserve">
+    <value>Renk Ayarlarını Sıfırla</value>
+  </data>
+  <data name="ComboBoxHour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 139</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 23</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Otomatik Güncelleme Ayarları</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Windows Ayarları</value>
+  </data>
+  <data name="toggleWindowsStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 68</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 20</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Geri Sayım Saati (Kaydedilmesi Gerekiyor)</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 20</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Başlarken Küçültülmüş Başlatma (Kaydetmeniz Gerekiyor)</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 23</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Sistem Bildirimi</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 23</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Tarama Bildirimi</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>                Ad</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Yüklü Sürüm</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>Kullanılabilir Sürüm</value>
+  </data>
+  <data name="columnHeader5.Text" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="SystemSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 24</value>
+  </data>
+  <data name="SystemSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sistem Ayarları</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 6</value>
+  </data>
+  <data name="notificationSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 24</value>
+  </data>
+  <data name="notificationSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bildirim Ayarları</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Araçlar</value>
+  </data>
+  <data name="userInterfaceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 24</value>
+  </data>
+  <data name="userInterfaceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Kullanıcı Arayüzü</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 6</value>
+  </data>
+  <data name="languageToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 24</value>
+  </data>
+  <data name="languageToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="ınterfaceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="ınterfaceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Görüntü</value>
+  </data>
+  <data name="updatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 24</value>
+  </data>
+  <data name="updatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Güncelleme</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 6</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 24</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 20</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Güncellemeleri Tara</value>
+  </data>
+  <data name="ToggleButtonAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 358</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 20</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>En son Güncellemeleri Otomatik Olarak Alın</value>
+  </data>
+  <data name="rjButton1.Text" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="btnCheckforUpdates.Text" xml:space="preserve">
+    <value>Güncellemeleri Tara</value>
+  </data>
+  <data name="btnBack.Text" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="LastScanLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 390</value>
+  </data>
+  <data name="LastScanLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 18</value>
+  </data>
+  <data name="LastScanLabel.Text" xml:space="preserve">
+    <value>Son Güncelleme Tarama Süresi : Tarama Yok</value>
+  </data>
+  <data name="StatusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 389</value>
+  </data>
+  <data name="StatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 18</value>
+  </data>
+  <data name="StatusLabel.Text" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 18</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Otomatik Güncelleme:</value>
+  </data>
+  <data name="kryptonColorDialog1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMIOAADCDgAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCYwAGwmMABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvWAAG79hAGS/YQClvWAAy7tgANe7YADXvWAAyr9hAKO/YQBivWAAGQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvGAAF75hAJG6XwDvqFcQ/45LHP95QyL/bz8k/28/JP96QyL/j0wc/6lX
+        EP+6XwDtvmEAjbxgABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvGAAFL5hAIq7XwDrqlgP/5FNG/98RCH/ckAk/3JAJP99RCH/kU0b/6pYD/+7XwDqvmEAh7xg
+        ABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAL1hABe/YQBev2EAn71hAMa8YADWvGAA1r1hAMW/YQCdv2IAXL1h
+        ABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMFjAAXBYwAFAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA//////////////////5////gB///gAH//wAA//4AAH/8AAA/+AAAH/gA
+        AB/wAAAP8AAAD/AAAA/wAAAP4AAAB+AAAAfwAAAP8AAAD/AAAA/wAAAP+AAAH/gAAB/8AAA//gAAf/8A
+        AP//gAH//+AH///+f/////////////////8=
+</value>
+  </data>
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMIOAADCDgAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCYwAGwmMABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvWAAG79hAGS/YQClvWAAy7tgANe7YADXvWAAyr9hAKO/YQBivWAAGQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvGAAF75hAJG6XwDvqFcQ/45LHP95QyL/bz8k/28/JP96QyL/j0wc/6lX
+        EP+6XwDtvmEAjbxgABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvGAAFL5hAIq7XwDrqlgP/5FNG/98RCH/ckAk/3JAJP99RCH/kU0b/6pYD/+7XwDqvmEAh7xg
+        ABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAL1hABe/YQBev2EAn71hAMa8YADWvGAA1r1hAMW/YQCdv2IAXL1h
+        ABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMFjAAXBYwAFAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA//////////////////5////gB///gAH//wAA//4AAH/8AAA/+AAAH/gA
+        AB/wAAAP8AAAD/AAAA/wAAAP4AAAB+AAAAfwAAAP8AAAD/AAAA/wAAAP+AAAH/gAAB/8AAA//gAAf/8A
+        AP//gAH//+AH///+f/////////////////8=
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMIOAADCDgAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCYwAGwmMABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvWAAG79hAGS/YQClvWAAy7tgANe7YADXvWAAyr9hAKO/YQBivWAAGQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAvGAAF75hAJG6XwDvqFcQ/45LHP95QyL/bz8k/28/JP96QyL/j0wc/6lX
+        EP+6XwDtvmEAjbxgABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAvGAAFL5hAIq7XwDrqlgP/5FNG/98RCH/ckAk/3JAJP99RCH/kU0b/6pYD/+7XwDqvmEAh7xg
+        ABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAL1hABe/YQBev2EAn71hAMa8YADWvGAA1r1hAMW/YQCdv2IAXL1h
+        ABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMFjAAXBYwAFAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA//////////////////5////gB///gAH//wAA//4AAH/8AAA/+AAAH/gA
+        AB/wAAAP8AAAD/AAAA/wAAAP4AAAB+AAAAfwAAAP8AAAD/AAAA/wAAAP+AAAH/gAAB/8AAA//gAAf/8A
+        AP//gAH//+AH///+f/////////////////8=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+</root>
